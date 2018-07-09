@@ -15,7 +15,7 @@
       },
       {
         "type": "Software System",
-        "name": "Internet Banking System",
+        "name": "核心业务系统",
         "description": "Allows customers to view information about their bank accounts and make payments.",
         "tags": "Internal",
         "position": "1015,725",
@@ -37,11 +37,11 @@
         "source": "Customer",
         "description": "Uses",
         "technology": "",
-        "destination": "Internet Banking System",
+        "destination": "核心业务系统",
         "tags": ""
       },
       {
-        "source": "Internet Banking System",
+        "source": "核心业务系统",
         "description": "Uses",
         "technology": "",
         "destination": "Mainframe Banking System",
