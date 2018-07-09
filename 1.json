@@ -1,15 +1,15 @@
 {
     "type": "System Context",
     "scope": "核心业务系统",
-    "description": "The system context diagram for the Internet Banking System.",
+    "description": "核心业务系统系统上下文图",
     "size": "A4_Landscape",
   
   
     "elements": [
       {
         "type": "Person",
-        "name": "Customer",
-        "description": "A customer of the bank.",
+        "name": "用户",
+        "description": "出租人侧的用户",
         "tags": "",
         "position": "1040,97"
       },
@@ -34,7 +34,7 @@
   
     "relationships": [
       {
-        "source": "Customer",
+        "source": "用户",
         "description": "Uses",
         "technology": "",
         "destination": "核心业务系统",
