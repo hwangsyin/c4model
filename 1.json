@@ -10,8 +10,7 @@
       "type": "Person",
       "name": "Customer",
       "description": "A customer of the bank.",
-      "tags": "",
-      "position": "1040,97"
+      "tags": ""
     },
     {
       "type": "Software System",
