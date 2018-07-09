@@ -1,10 +1,9 @@
 {
     "type": "System Context",
-    "scope": "核心业务系统",
+    "scope": "贷前交易系统",
     "description": "核心业务系统系统上下文图",
     "size": "A4_Landscape",
-  
-  
+
     "elements": [
       {
         "type": "Person",
