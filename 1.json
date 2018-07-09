@@ -9,16 +9,14 @@
       {
         "type": "Person",
         "name": "用户",
-        "description": "出租人侧的用户",
-        "tags": "",
-        "position": "1040,97"
+        "description": "运营性质的用户，如沣邦、合作商、车商等。",
+        "tags": "出租人"
       },
       {
         "type": "Software System",
-        "name": "核心业务系统",
-        "description": "Allows customers to view information about their bank accounts and make payments.",
+        "name": "贷前交易系统",
+        "description": "承载融资租赁合同生效前的申请、审批等功能。",
         "tags": "Internal",
-        "position": "1015,725",
         "containers": []
       },
       {
@@ -37,11 +35,11 @@
         "source": "用户",
         "description": "Uses",
         "technology": "",
-        "destination": "核心业务系统",
+        "destination": "贷前交易系统",
         "tags": ""
       },
       {
-        "source": "核心业务系统",
+        "source": "贷前交易系统",
         "description": "Uses",
         "technology": "",
         "destination": "Mainframe Banking System",
